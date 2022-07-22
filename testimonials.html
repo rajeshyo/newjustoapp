@@ -14,13 +14,7 @@
 
   gtag('config', 'UA-213878836-1');
 </script>
-	<style>
-		.profileimage{
-			height: 116px;
-    width: 116px;
-    border-radius: 50%;
-		}
-	</style>
+	
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>JustO</title>
@@ -34,7 +28,43 @@
 
 	<link rel="stylesheet" href="vendor.css">
 	<link rel="stylesheet" href="style.css">
-
+	<style>
+		.container {
+		  border: 2px solid #ccc;
+		  background-color: #eee;
+		  border-radius: 5px;
+		  padding: 16px;
+		  margin: 16px 0
+		}
+		
+		.container::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
+		
+		.container img {
+		  float: left;
+		  margin-right: 20px;
+		  border-radius: 50%;
+		}
+		
+		.container span {
+		  font-size: 20px;
+		  margin-right: 15px;
+		}
+		
+		@media (max-width: 500px) {
+		  .container {
+			  text-align: center;
+		  }
+		  .container img {
+			  margin: auto;
+			  float: none;
+			  display: block;
+		  }
+		}
+		</style>
 </head>
 <body class="page-template-portfolio ish-content-overlay-large ish-blurred ish-color1">
 <div class="ish-blurred-overlay"></div>
@@ -68,11 +98,7 @@
 					</div>
 
 					<div class="site-branding">
-						
-						<h1 class="site-title">
-							<img src="img/team/team5.png" alt="" class="profileimage">
-							Pramod B     <span></span></h1>
-							<span >(Category & Business Analyst)</span>
+						<h1 class="site-title">Testimonials <span> </span></h1>
 						<!-- <p class="site-description">iGear is a brand of innovative gadgets at an affordable cost to customers <br>looking for technology solutions to their lifestyle needs.</p> -->
 					</div><!-- .site-branding -->
 				</div>
@@ -174,7 +200,7 @@
 												<img src="img/ABOUT_US_WEBSITE_HOME_SCREEN_IMAGE_02122021-1.jpg" alt="Kamlesh Sharma">
 											</a> -->
 
-											<br/><br/><br/><br/>
+											<br/><br/>
 										</p>
 									</div>
 									<div class="ish-col-xs-12 ish-col-sm-offset-1 ish-col-sm-7">
@@ -183,13 +209,38 @@
 											The founder, Kamlesh Sharma, has over 15 years of experience in B2B/B2C sales. With a deep understanding about varied electronic products, purchases, international markets, suppliers and logistics, he brought iGear to the limelight with his practical knowledge.<br><br><br>
 										</p> -->
 									</div>
-								</div>
-								<br/><br/>
+								</div><br><br>
 								<div class="elementor-widget-container">
-									<p class="mrgin-btm">Having 17+ years’ experience in Electronics & Consumer Durable Industrywith
-										Major Brands Like Onida, TCL, Panasonic & Impex at Various Levels, Here in JustO
-										will be Heading All Categories- Category Management & Vendor Management
-										-Business and Gap Analysis.</p>
+									
+									<div class="container">
+										<img src="img/testimonials/tes1.png" alt="Avatar" style="width:90px">
+										<p><span>Mr. Naveen Kumar</span> M/S Punarvika Electronics <span>Retail Chain Stores</span></p>
+										
+										<p>“ I have been dealing with JustO from almost a year now.  Getting  the best deals &very satisfied with their commitment level”</p>
+									  </div>
+									  
+									  <div class="container">
+										<img src="img/testimonials/tes2.png" alt="Avatar" style="width:90px">
+										<p><span>Mr.Jossy Pinto</span> M/S JMJ Electronics <span>Karkala</span></p>
+										
+										<p>“ I had ordered material & received it in 2 days. Got the better price also. Happy to deal with JustO “</p>
+									  </div>
+
+									  <div class="container">
+										<img src="img/testimonials/test3.png" alt="Avatar" style="width:90px">
+										<p><span>Mr.Hemanth</span> M/S Three Ventures Electronics <span>Bengaluru</span></p>
+										
+										<p>
+											“ I have been buying & selling goods in JustO. Getting good deals on both sides. Account is very clean &transperant”
+											</p>
+									  </div>
+
+									  <div class="container">
+										<img src="img/testimonials/test4.png" alt="Avatar" style="width:90px">
+										<p><span>Mr.Madhu</span> M/S Geetha Electronics <span>Nelamangala</span></p>
+										
+										<p>“ I get deliveries of ordered materials with in 2 days. Getting good price.App is really very nice & simple to use “</p>
+									  </div>
 		
 							</div>
 								<div class="ish-col-xs-12 ish-col-sm-offset-1 ish-col-sm-5 ish-sc-gallery">
